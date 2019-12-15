@@ -3,7 +3,7 @@ import ic_mail from '../images/ic_mail.svg'
 
 export const footerMenuData = [
     {
-        title:'Giới thiệu Wee',
+        title:'Giới thiệu',
         key:'gioi-thieu-wee'
     },
     {

@@ -7,7 +7,7 @@ import {menuData} from '../../../data/menuData'
 import {userLogin} from '../../../data/mockData'
 
 //image
-import logo_wee from '../../../images/logo_wee.svg'
+import logo from '../../../images/logo.png'
 import ic_notification from '../../../images/ic_notification.svg'
 
 const Bound = styled.div`
@@ -177,7 +177,7 @@ export default class Menu extends Component {
         
         return (
             <Bound>
-                <img src={logo_wee} className='logo-wee' alt=''></img>
+                <img src={logo} className='logo-wee' alt=''></img>
                 <div className='menu-container'>
                     {this.renderMenu()}
                     <div id='line-active'></div>
