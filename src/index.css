@@ -1,0 +1,104 @@
+
+*{
+  box-sizing:border-box;
+  margin:0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+html{
+  font-size: 16px;
+  font-family: Roboto;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width:100vw;
+  height: 100vh;
+  min-width: 1024px;
+  min-height:620px;
+  overflow-x:auto;
+  overflow-y:hidden;
+}
+.hidden{
+  display: none !important;
+}
+.visible{
+  visibility:visible !important;
+}
+.drop-down-range-picker-wee{
+ top: 250px !important;
+}
+.show{
+  display: block !important;
+}
+#root{
+  width:100%;
+  height: 100%;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-weight: 300;
+  font-style: 'normal';
+  src: url('./fonts/Roboto-Light.ttf') format('truetype')
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-style: 'normal';
+  src: url('./fonts/Roboto-Regular.ttf') format('truetype')
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-style: 'normal';
+  src: url('./fonts/Roboto-Medium.ttf') format('truetype')
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-weight: 'normal';
+  font-style: 'normal';
+  src: url('./fonts/Roboto-Black.ttf') format('truetype')
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-weight: 'bold';
+  font-style: 'normal';
+  src: url('./fonts/Roboto-Bold.ttf') format('truetype')
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-weight: 'medium';
+  font-style: 'normal';
+  src: url('./fonts/Roboto-Medium.ttf') format('truetype')
+}
+
+
+@font-face {
+  font-family: 'UTM-Avo';
+  font-weight: 'bold';
+  font-style: 'normal';
+  src: url('./fonts/utm-avobold.ttf') format('truetype')
+}
+
+@font-face {
+  font-family: 'UTM-Avo';
+  font-weight: 'normal';
+  font-style: 'normal';
+  src: url('./fonts/utm-avo.ttf') format('truetype')
+}
+code {
+  font-family: UTM-Avo, Roboto, source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
